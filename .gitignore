@@ -1,4 +1,7 @@
 *.secret
+*.mp4
+*.ts
+*.m3u8
 
 # Project Files #
 #################
