@@ -1,0 +1,46 @@
+*.secret
+
+# Project Files #
+#################
+.idea
+*.ipr
+*.iml
+.settings
+.project
+.classpath
+.gradle
+local.properties
+build/
+captures/
+node_modules/
+package-lock.json
+
+# Virtualenv #
+##############
+*.pyc
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+.ipynb_checkpoints
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+*~
+.*.swp
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
