@@ -26,8 +26,10 @@ FFmpeg encoding on CPU slows down, as the number of parallel streams for adaptiv
 
 1. Spin off an [AWS G3 Nvidia GPU Instance](https://aws.amazon.com/ec2/instance-types/g3/) (These are very costly instances, so run them only when the live stream is on)
 2. [Install Nvidia drivers](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-nvidia-driver.html)
-3. [Install CUDA 9.1](https://developer.nvidia.com/cuda-downloads)
+3. [Install CUDA](https://developer.nvidia.com/cuda-downloads)
 4. [Compile FFmpeg with CUDA](https://developer.nvidia.com/ffmpeg)
+
+(Refer [Dockerfile](docker/Dockerfile))
 
 ### Demo
 
